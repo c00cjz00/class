@@ -355,12 +355,11 @@ Tool 是為了 function calling 所設計的通訊協議。它的重點在於，
 
 為了更清楚理解這件事，我們來看看原本的 function calling 過程：
 
-![image](https://hackmd.io/_uploads/SyMTWBlgel.png)
+![image](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_e70ec25a10598154f83eb5e594f077f7.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1746368676&Signature=RslGVV6yqit8lHYItyfjxodC4to%3D)
 
 
 #### MCP 到底是什麼
 最近 MCP 超級火，都被吹到天上去了，有人說 MCP 是 AI 領域的「USB-C 標準」，甚至有人預測它將引領下一個 AI 應用時代的到來。不過，乍看之下，MCP 不就跟原本的 function calling 幹的是同一件事嗎?
 
 其實不然，MCP 不是想取代 function calling，MCP 實際上是把 Tool Execution 的部份從原本 function calling 的流程中抽離出來，並統一了接口。 另外，不只是 Tool，MCP 總共提出了三個核心概念：Tool、Resource、Prompt，目的是把 AI Agent 常見的操作邏輯抽象成一套標準化的介面。
-
-![image](https://hackmd.io/_uploads/By4iSrllxg.png)
+![image]([https://hackmd.io/_uploads/By4iSrllxg.png](https://hackmd-prod-images.s3-ap-northeast-1.amazonaws.com/uploads/upload_732160e36e7b1b8bb410c7845a365541.png?AWSAccessKeyId=AKIA3XSAAW6AWSKNINWO&Expires=1746368633&Signature=LbiSQJbMcFDRjupRrJ3lD%2Bje5u0%3D))
