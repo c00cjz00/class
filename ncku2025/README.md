@@ -13,7 +13,7 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 ```bash=
 # On macOS and Linux.
-mdir -p $HOME/uv
+mkdir -p $HOME/uv
 cd $HOME/uv
 uv venv langchaing --python 3.11 && source langchaing/bin/activate && uv pip install --upgrade pip
 
