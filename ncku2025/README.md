@@ -74,6 +74,7 @@ jupyter lab
 # git clone
 export PATH=$PATH:$HOME/.local/bin
 cd $HOME/uv
+#cd D:\uv
 git clone https://github.com/c00cjz00/class.git
 ```
 
