@@ -1,6 +1,20 @@
 # 成大課程：基於 LangChain 的 RAG 與 Function Calling (Tools) 開發教學
 
 ## 安裝
+
+### 安裝git 
+```bash=
+# On macOS
+https://git-scm.com/download/mac
+
+# On Linux.
+sudo yum install git-all  sudo apt-get install git-all
+sudo yum install git-all  sudo apt-get install git-all
+
+# On Windows.
+powershell -c "winget install --id Git.Git -e --source winget"
+```
+
 ### UV 執行檔案安裝
 ```bash=
 # On macOS and Linux.
