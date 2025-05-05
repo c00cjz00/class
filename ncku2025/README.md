@@ -74,7 +74,7 @@ jupyter lab
 # git clone
 export PATH=$PATH:$HOME/.local/bin
 cd $HOME/uv
-git clone https://github.com/c00cjz00/class/tree/main
+git clone https://github.com/c00cjz00/class.git
 ```
 
 ## LLM 課程教學
