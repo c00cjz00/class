@@ -57,6 +57,19 @@ langchaing\Scripts\activate
 jupyter lab
 ```
 
+### 於notebook 下載相關套件
+```bash=
+# On macOS and Linux.
+%%bashsh
+cd $HOME/uv
+export PATH=$PATH:$HOME/.local/bin
+
+# On Windows
+powershell
+cd D:\uv
+export PATH=$PATH:$HOME/.local/bin
+```
+
 ### notebook 相關指令
 ```python=
 # ! 執行程式符號
@@ -70,12 +83,6 @@ jupyter lab
 # 執行連續程式符號
 %%bash
 ...
-
-# git clone
-export PATH=$PATH:$HOME/.local/bin
-cd $HOME/uv
-#cd D:\uv
-git clone https://github.com/c00cjz00/class.git
 ```
 
 ## LLM 課程教學
