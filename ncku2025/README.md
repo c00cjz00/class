@@ -13,6 +13,7 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 ```bash=
 # On macOS and Linux.
+export PATH=$PATH:$HOME/.local/
 mkdir -p $HOME/uv
 cd $HOME/uv
 uv venv langchaing --python 3.11 && source langchaing/bin/activate && uv pip install --upgrade pip
@@ -26,6 +27,7 @@ uv venv langchaing --python 3.11 && langchaing\Scripts\activate && uv pip instal
 ### notebook 安裝
 ```bash=
 # On macOS and Linux.
+export PATH=$PATH:$HOME/.local/
 cd $HOME/uv
 source langchaing/bin/activate 
 uv pip install jupyterlab ipywidgets jupyterlab_widgets
@@ -42,6 +44,7 @@ uv pip install jupyterlab ipywidgets jupyterlab_widgets
 ### 啟動 notebook
 ```bash=
 # On macOS and Linux.
+export PATH=$PATH:$HOME/.local/
 cd $HOME/uv
 source langchaing/bin/activate 
 jupyter lab
