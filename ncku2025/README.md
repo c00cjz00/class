@@ -60,14 +60,14 @@ jupyter lab
 ### 於notebook 下載相關套件
 ```bash=
 # On macOS and Linux.
-%%bashsh
+%%bash
 cd $HOME/uv
-export PATH=$PATH:$HOME/.local/bin
+git clone https://github.com/c00cjz00/class.git
 
 # On Windows
-powershell
+%%bash
 cd D:\uv
-export PATH=$PATH:$HOME/.local/bin
+git clone https://github.com/c00cjz00/class.git
 ```
 
 ### notebook 相關指令
