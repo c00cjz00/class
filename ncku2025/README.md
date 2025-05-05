@@ -70,6 +70,11 @@ jupyter lab
 # 執行連續程式符號
 %%bash
 ...
+
+# git clone
+export PATH=$PATH:$HOME/.local/bin
+cd $HOME/uv
+git clone https://github.com/c00cjz00/class/tree/main
 ```
 
 ## LLM 課程教學
