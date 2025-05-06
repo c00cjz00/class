@@ -38,6 +38,18 @@ mkdir -p D:\uv
 cd D:\uv
 uv venv langchaing --python 3.11 && langchaing\Scripts\activate && uv pip install --upgrade pip
 ```
+
+
+```
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+powershell -c  C:\Users\你的帳號\.local\bin\uv.exe
+powershell -c  C:\Users\你的帳號\.local\bin\uv.exe venv langchaing --python 3.11
+langchaing\Scripts\activate
+powershell -c  C:\Users\你的帳號\.local\bin\uv.exe pip install jupyterlab ipywidgets jupyterlab_widgets
+
+```
+
+
 ### notebook 安裝
 ```bash=
 # On macOS and Linux.
