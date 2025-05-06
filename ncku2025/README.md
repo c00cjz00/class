@@ -42,14 +42,24 @@ uv pip install --upgrade pip
 ```
 
 
+### 補充
 ```
-powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
-powershell -c  C:\Users\你的帳號\.local\bin\uv.exe
-powershell -c  C:\Users\你的帳號\.local\bin\uv.exe venv langchaing --python 3.11
-langchaing\Scripts\activate
-powershell -c  C:\Users\你的帳號\.local\bin\uv.exe pip install jupyterlab ipywidgets jupyterlab_widgets
+# On Windows
+powershell
 
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+mkdir -p D:\uv
+cd D:\uv
+uv venv langchaing --python 3.11
+langchaing\Scripts\activate
+uv pip install --upgrade pip
+uv pip install jupyterlab ipywidgets jupyterlab_widgets
+jupyter lab
 ```
+
+
 
 
 ### notebook 安裝
