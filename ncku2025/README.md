@@ -36,7 +36,9 @@ uv venv langchaing --python 3.11 && source langchaing/bin/activate && uv pip ins
 powershell
 mkdir -p D:\uv
 cd D:\uv
-uv venv langchaing --python 3.11 && langchaing\Scripts\activate && uv pip install --upgrade pip
+uv venv langchaing --python 3.11
+langchaing\Scripts\activate
+uv pip install --upgrade pip
 ```
 
 
