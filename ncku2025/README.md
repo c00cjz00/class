@@ -8,8 +8,8 @@
 https://git-scm.com/download/mac
 
 # On Linux.
-sudo yum install git-all  sudo apt-get install git-all
-sudo yum install git-all  sudo apt-get install git-all
+sudo yum install git-all
+sudo apt-get install git-all
 
 # On Windows.
 powershell -c "winget install --id Git.Git -e --source winget"
