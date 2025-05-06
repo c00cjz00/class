@@ -53,7 +53,6 @@ powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 mkdir -p D:\uv
 cd D:\uv
 uv venv langchaing --python 3.11
-langchaing\Scripts\activate
 uv pip install --upgrade pip
 uv pip install jupyterlab ipywidgets jupyterlab_widgets
 jupyter lab
